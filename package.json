@@ -1,0 +1,29 @@
+{
+  "name": "Kreact",
+  "version": "1.0.0",
+  "description": "creating React from scratch",
+  "main": "index.js",
+  "author": "Kev Lai & Anakin Yuen",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "webpack -wd",
+    "test": "jest --watch"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint-plugin-react": "^7.4.0",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
